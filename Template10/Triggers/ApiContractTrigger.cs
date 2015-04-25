@@ -41,7 +41,7 @@ namespace Template10.Triggers
         //Evaluate and update trigger
         private void UpdateTrigger()
         {
-            SetTriggerValue(_currentBackButton == _backButton);
+            SetActive(_currentBackButton == _backButton);
         }
     }
 }
